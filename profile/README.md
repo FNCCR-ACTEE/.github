@@ -12,10 +12,10 @@ Plateforme de gestion et de suivi de l'inventaire du patrimoine bâti des collec
 
 | Dépôt | Description | Stack |
 |-------|-------------|-------|
-| `ipper-back` | API REST métier | Python 3.14 · FastAPI · PostgreSQL/PostGIS · SQLAlchemy · Alembic |
-| `ipper-front` | Interface utilisateur | Angular 20 · TypeScript · LESS · MapLibre GL · Keycloak |
-| `ipper-data` | Pipeline ETL de données | Python · PySpark 3.5 · Delta Lake · Apache Sedona · AWS S3 |
-| `ipper-enedis` | Suite de tests B2B Enedis SGE | Python · Zeep (SOAP) · mTLS · WSDL/XSD |
+| [`ipper-back`](https://github.com/FNCCR-ACTEE/ipper-back) | API REST métier | Python 3.14 · FastAPI · PostgreSQL/PostGIS · SQLAlchemy · Alembic |
+| [`ipper-front`](https://github.com/FNCCR-ACTEE/ipper-front) | Interface utilisateur | Angular 20 · TypeScript · LESS · MapLibre GL · Keycloak |
+| [`ipper-data`](https://github.com/FNCCR-ACTEE/ipper-data) | Pipeline ETL de données | Python · PySpark 3.5 · Delta Lake · Apache Sedona · AWS S3 |
+| [`ipper-enedis`](https://github.com/FNCCR-ACTEE/ipper-enedis) | Suite de tests B2B Enedis SGE | Python · Zeep (SOAP) · mTLS · WSDL/XSD |
 
 **Fonctionnalités principales :**
 - Inventaire des bâtiments publics avec géolocalisation (PostGIS)
@@ -32,7 +32,7 @@ Première version de la plateforme de gestion des projets de rénovation énerg�
 
 | Dépôt | Description | Stack |
 |-------|-------------|-------|
-| `laureat-v1` | Application full-stack | ASP.NET Core (C#) · ABP Boilerplate · Angular 15 · SQL Server/PostgreSQL |
+| [`laureat-v1`](https://github.com/FNCCR-ACTEE/laureat-v1) | Application full-stack | ASP.NET Core (C#) · ABP Boilerplate · Angular 15 · SQL Server/PostgreSQL |
 
 **Fonctionnalités principales :**
 - Gestion des dossiers de rénovation énergétique
@@ -49,10 +49,10 @@ Nouvelle génération de la plateforme Lauréat, repensée avec une architecture
 
 | Dépôt | Description | Stack |
 |-------|-------------|-------|
-| `laureat-v2` | Monorepo API + Frontend | FastAPI · Angular 20 · PostgreSQL · SQLModel · Alembic |
-| `laureat-v2-admin` | Panneau d'administration | Angular 21 · Tailwind CSS 4 · NgRx Signal Store · Vitest · Playwright |
-| `laureat-v2-gitbook` | Documentation utilisateur | GitBook |
-| `laureat-v2-playground` | *(Archivé)* Interface de test API | Vanilla JS/HTML — archivé, remplacé par l'admin panel |
+| [`laureat-v2`](https://github.com/FNCCR-ACTEE/laureat-v2) | Monorepo API + Frontend | FastAPI · Angular 20 · PostgreSQL · SQLModel · Alembic |
+| [`laureat-v2-admin`](https://github.com/FNCCR-ACTEE/laureat-v2-admin) | Panneau d'administration | Angular 21 · Tailwind CSS 4 · NgRx Signal Store · Vitest · Playwright |
+| [`laureat-v2-gitbook`](https://github.com/FNCCR-ACTEE/laureat-v2-gitbook) | Documentation utilisateur | GitBook |
+| [`laureat-v2-playground`](https://github.com/FNCCR-ACTEE/laureat-v2-playground) | *(Archivé)* Interface de test API | Vanilla JS/HTML — archivé, remplacé par l'admin panel |
 
 **Fonctionnalités principales :**
 - Gestion des programmes de financement et des dossiers de rénovation
@@ -67,7 +67,7 @@ Nouvelle génération de la plateforme Lauréat, repensée avec une architecture
 
 | Dépôt | Description | Stack |
 |-------|-------------|-------|
-| `design-system` | Bibliothèque de composants UI `@actee/design-system` | Angular 20 · Storybook 9 · Tailwind CSS · ng-packagr |
+| [`design-system`](https://github.com/FNCCR-ACTEE/design-system) | Bibliothèque de composants UI `@actee/design-system` | Angular 20 · Storybook 9 · Tailwind CSS · ng-packagr |
 
 Bibliothèque de composants Angular partagée entre IPPER et Lauréat V2. Publiée sur le registre npm GitLab interne (`git.ipper.fr`). Comprend plus de 50 composants atomiques et composés (atoms → molecules → organisms), un système d'icônes SVG et les tokens de design issus de Figma.
 
