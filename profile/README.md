@@ -1,4 +1,4 @@
-# FNCCR — ACTEE
+# ACTEE
 
 **ACTEE** (Action des Collectivités Territoriales pour l'Efficacité Energétique) est un programme porté par la **FNCCR** (Fédération Nationale des Collectivités Concédantes et Régies) visant à accompagner les collectivités territoriales françaises dans leur transition énergétique et la rénovation de leur patrimoine bâti.
 
